@@ -1,0 +1,8 @@
+INFO: Using the specific_data_bad.in file for input
+line: 1  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 2  lexeme: |Probable Case|  length: 13  token: 41
+line: 3  lexeme: |Male|  length: 4  token: 50
+line: 4  lexeme: |Female|  length: 6  token: 51
+line: 8  lexeme: |Other|  length: 5  token: 52
+line: 8  lexeme: |2|  length: 1  token: 99
+ERROR: unknown token

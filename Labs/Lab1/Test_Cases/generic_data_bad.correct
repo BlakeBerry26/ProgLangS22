@@ -1,0 +1,3 @@
+INFO: Using the generic_data_bad.in file for input
+line: 2  lexeme: |2|  length: 1  token: 99
+ERROR: unknown token

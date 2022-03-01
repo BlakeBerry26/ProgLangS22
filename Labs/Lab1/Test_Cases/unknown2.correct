@@ -1,0 +1,215 @@
+INFO: Using the unknown2.csv file for input
+line: 1  lexeme: |2020/02/09|  length: 10  token: 10
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |2020/04/12|  length: 10  token: 10
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |2020/02/09|  length: 10  token: 10
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Male|  length: 4  token: 50
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |20 - 39 Years|  length: 13  token: 62
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |"White, Non-Hispanic"|  length: 21  token: 75
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |No|  length: 2  token: 31
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Missing|  length: 7  token: 33
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |No|  length: 2  token: 31
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Missing|  length: 7  token: 33
+line: 3  lexeme: |2020/02/09|  length: 10  token: 10
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |2020/02/09|  length: 10  token: 10
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |2020/02/09|  length: 10  token: 10
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |Female|  length: 6  token: 51
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |20 - 39 Years|  length: 13  token: 62
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |"White, Non-Hispanic"|  length: 21  token: 75
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |Unknown|  length: 7  token: 32
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |Missing|  length: 7  token: 33
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |No|  length: 2  token: 31
+line: 3  lexeme: |,|  length: 1  token: 20
+line: 3  lexeme: |Missing|  length: 7  token: 33
+line: 5  lexeme: |2020/02/09|  length: 10  token: 10
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |2020/02/09|  length: 10  token: 10
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |2020/02/09|  length: 10  token: 10
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |Female|  length: 6  token: 51
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |20 - 39 Years|  length: 13  token: 62
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |"White, Non-Hispanic"|  length: 21  token: 75
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |No|  length: 2  token: 31
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |No|  length: 2  token: 31
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |No|  length: 2  token: 31
+line: 5  lexeme: |,|  length: 1  token: 20
+line: 5  lexeme: |No|  length: 2  token: 31
+line: 7  lexeme: |2020/02/09|  length: 10  token: 10
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |2020/02/09|  length: 10  token: 10
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |2020/02/09|  length: 10  token: 10
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |Male|  length: 4  token: 50
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |20 - 39 Years|  length: 13  token: 62
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |Unknown|  length: 7  token: 32
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |Yes|  length: 3  token: 30
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |Missing|  length: 7  token: 33
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |No|  length: 2  token: 31
+line: 7  lexeme: |,|  length: 1  token: 20
+line: 7  lexeme: |Missing|  length: 7  token: 33
+line: 9  lexeme: |2020/02/09|  length: 10  token: 10
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |2020/06/12|  length: 10  token: 10
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |2020/02/09|  length: 10  token: 10
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |Female|  length: 6  token: 51
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |60 - 69 Years|  length: 13  token: 66
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |"White, Non-Hispanic"|  length: 21  token: 75
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |No|  length: 2  token: 31
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |Unknown|  length: 7  token: 32
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |No|  length: 2  token: 31
+line: 9  lexeme: |,|  length: 1  token: 20
+line: 9  lexeme: |Yes|  length: 3  token: 30
+line: 11  lexeme: |2020/02/09|  length: 10  token: 10
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |2020/02/09|  length: 10  token: 10
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |2020/02/09|  length: 10  token: 10
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |Female|  length: 6  token: 51
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |60 - 69 Years|  length: 13  token: 66
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |"White, Non-Hispanic"|  length: 21  token: 75
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |No|  length: 2  token: 31
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |Missing|  length: 7  token: 33
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |No|  length: 2  token: 31
+line: 11  lexeme: |,|  length: 1  token: 20
+line: 11  lexeme: |Missing|  length: 7  token: 33
+line: 13  lexeme: |2020/02/09|  length: 10  token: 10
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |2020/04/02|  length: 10  token: 10
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |2020/02/09|  length: 10  token: 10
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |Male|  length: 4  token: 50
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |60 - 69 Years|  length: 13  token: 66
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |"White, Non-Hispanic"|  length: 21  token: 75
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |Yes|  length: 3  token: 30
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |Missing|  length: 7  token: 33
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |No|  length: 2  token: 31
+line: 13  lexeme: |,|  length: 1  token: 20
+line: 13  lexeme: |Missing|  length: 7  token: 33
+line: 15  lexeme: |2020/02/09|  length: 10  token: 10
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |2020/06/24|  length: 10  token: 10
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |2020/02/09|  length: 10  token: 10
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |Male|  length: 4  token: 50
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |50 - 59 Years|  length: 13  token: 65
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |"Black, Non-Hispanic"|  length: 21  token: 73
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |No|  length: 2  token: 31
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |No|  length: 2  token: 31
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |Unknown|  length: 7  token: 32
+line: 15  lexeme: |,|  length: 1  token: 20
+line: 15  lexeme: |Yes|  length: 3  token: 30
+line: 17  lexeme: |2020/02/09|  length: 10  token: 10
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |2020/02/09|  length: 10  token: 10
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |2020/02/09|  length: 10  token: 10
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |Female|  length: 6  token: 51
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |50 - 59 Years|  length: 13  token: 65
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |Unknown|  length: 7  token: 32
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |Yes|  length: 3  token: 30
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |No|  length: 2  token: 31
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |No|  length: 2  token: 31
+line: 17  lexeme: |,|  length: 1  token: 20
+line: 17  lexeme: |Missing|  length: 7  token: 33
+line: 19  lexeme: |2020/02/08|  length: 10  token: 10
+line: 19  lexeme: |,|  length: 1  token: 20
+line: 19  lexeme: |2020/04/20|  length: 10  token: 10
+line: 19  lexeme: |,|  length: 1  token: 20
+line: 19  lexeme: |2020/04/09|  length: 10  token: 10
+line: 19  lexeme: |,|  length: 1  token: 20
+line: 19  lexeme: |2020/02/08|  length: 10  token: 10
+line: 19  lexeme: |,|  length: 1  token: 20
+line: 19  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 19  lexeme: |,|  length: 1  token: 20
+line: 19  lexeme: |Male|  length: 4  token: 50
+line: 19  lexeme: |,|  length: 1  token: 20
+line: 19  lexeme: |40 - 49 Years|  length: 13  token: 64
+line: 19  lexeme: |,|  length: 1  token: 20
+line: 19  lexeme: |"|  length: 1  token: 99
+ERROR: unknown token
