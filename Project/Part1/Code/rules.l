@@ -1,3 +1,10 @@
+/*********************************************************************
+Name: Andrew Blake Berry NetID: abb576
+Course: CSE 4714 Assignment: Part 1
+Programming Environment:
+Purpose of File: Contains the ....
+*********************************************************************/
+
 /******************************************************************* 
 write an appropriate header comment, see the assignment
 *******************************************************************/
