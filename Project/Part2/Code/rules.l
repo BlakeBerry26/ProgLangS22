@@ -1,8 +1,8 @@
 /*********************************************************************
 Name: Andrew Blake Berry NetID: abb576
-Course: CSE 4714 Assignment: Part 1
-Programming Environment:
-Purpose of File: Contains the ....
+Course: CSE 4714 Assignment: Part 2
+Programming Environment: VS Code
+Purpose of File: Contains the rules for lex
 *********************************************************************/
 %option yylineno
 %option noyywrap
@@ -16,8 +16,8 @@ digit [0-9]
 letter [A-Z]
 identifier [A-Z][0-9A-Z]{0,7}
 not_identifier [A-Z][0-9A-Z]{8,}
-integer [+-]?{digit}+
-floating [+-]?{digit}+"."{digit}+
+integer {digit}+
+floating {digit}+"."{digit}+
 string '[^\n']{0,80}'
 not_string '[^\n']{81,}'
 
