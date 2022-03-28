@@ -1,0 +1,859 @@
+INFO: Using the input2.pas file for input
+enter <program>
+    -->found PROGRAM
+    -->found LARGE
+    -->found ;
+    enter <block>
+        -->found VAR
+        -->found I1
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I2
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I3
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I4
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I5
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I6
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I7
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I8
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I9
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I10
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I11
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I12
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I13
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I14
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I15
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I16
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I17
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I18
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I19
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I20
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I21
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I22
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I23
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I24
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found I25
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found R1
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R2
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R3
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R4
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R5
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R6
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R7
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R8
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R9
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R10
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R11
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R12
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R13
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R14
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R15
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R16
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R17
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R18
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R19
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R20
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R21
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R22
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R23
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R24
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found R25
+        -->found :
+        -->found REAL
+        -->found ;
+
+        enter <compound_statement>
+            -->found BEGIN
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'STARTING WITH INTEGER CALCULATIONS'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found I1
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 1
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found I2
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 2
+                                exit <factor>
+                                -->found *
+                                enter <factor>
+                                    -->found I1
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found I3
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found I2
+                                exit <factor>
+                            exit <term>
+                            -->found +
+                            enter <term>
+                                enter <factor>
+                                    -->found I1
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found I4
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found I3
+                                exit <factor>
+                                -->found *
+                                enter <factor>
+                                    -->found (
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found I2
+                                                exit <factor>
+                                            exit <term>
+                                            -->found -
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found I1
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                    -->found )
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found I5
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found I4
+                                exit <factor>
+                                -->found /
+                                enter <factor>
+                                    -->found I3
+                                exit <factor>
+                                -->found /
+                                enter <factor>
+                                    -->found I2
+                                exit <factor>
+                                -->found *
+                                enter <factor>
+                                    -->found I1
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found I6
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found (
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found I5
+                                                exit <factor>
+                                            exit <term>
+                                            -->found +
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found I4
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                    -->found )
+                                exit <factor>
+                                -->found *
+                                enter <factor>
+                                    -->found (
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found I3
+                                                exit <factor>
+                                            exit <term>
+                                            -->found -
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found I2
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                    -->found )
+                                exit <factor>
+                                -->found /
+                                enter <factor>
+                                    -->found 10
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found I7
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found -
+                                    enter <factor>
+                                        -->found I6
+                                    exit <factor>
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found I8
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found -
+                                    enter <factor>
+                                        -->found (
+                                        enter <expression>
+                                            enter <simple expression>
+                                                enter <term>
+                                                    enter <factor>
+                                                        -->found I7
+                                                    exit <factor>
+                                                exit <term>
+                                            exit <simple expression>
+                                        exit <expression>
+                                        -->found )
+                                    exit <factor>
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'FINISHED WITH INTEGER CALCULATIONS'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'EXAMPLES OF FLOW CONTROL'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found R25
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 1.5
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <while statement>
+                    -->found WHILE
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found R25
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                        -->found <
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 25.0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                    enter <statement>
+                        enter <compound_statement>
+                            -->found BEGIN
+                            enter <statement>
+                                enter <assignment>
+                                    -->found R25
+                                    -->found :=
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found R25
+                                                exit <factor>
+                                            exit <term>
+                                            -->found +
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found 1.25
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                exit <assignment>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <if statement>
+                                    -->found IF
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found R25
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                        -->found <
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found (
+                                                    enter <expression>
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found 0.5
+                                                                exit <factor>
+                                                                -->found *
+                                                                enter <factor>
+                                                                    -->found 25.0
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                    exit <expression>
+                                                    -->found )
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                    -->found THEN
+                                    enter <statement>
+                                        enter <write>
+                                            -->found WRITE
+                                            -->found (
+                                            -->found 'STILL FAR AWAY'
+                                            -->found )
+                                        exit <write>
+                                    exit <statement>
+                                    -->found ELSE
+                                    enter <statement>
+                                        enter <compound_statement>
+                                            -->found BEGIN
+                                            enter <statement>
+                                                enter <write>
+                                                    -->found WRITE
+                                                    -->found (
+                                                    -->found 'GETTING CLOSE'
+                                                    -->found )
+                                                exit <write>
+                                            exit <statement>
+                                            -->found END
+                                        exit <compound_statement>
+                                    exit <statement>
+                                exit <if statement>
+                            exit <statement>
+                            -->found END
+                        exit <compound_statement>
+                    exit <statement>
+                exit <while statement>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'THAT IS ALL'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found END
+        exit <compound_statement>
+    exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+I1
+I10
+I11
+I12
+I13
+I14
+I15
+I16
+I17
+I18
+I19
+I2
+I20
+I21
+I22
+I23
+I24
+I25
+I3
+I4
+I5
+I6
+I7
+I8
+I9
+R1
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R2
+R20
+R21
+R22
+R23
+R24
+R25
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+
+
+*** In order traversal of parse tree ***
+Program Name LARGE
+Begin Compound Statement
+Write String 'STARTING WITH INTEGER CALCULATIONS'
+Assignment I1 := expression( simple_expression( term( factor( 1 ) ) ) )
+Assignment I2 := expression( simple_expression( term( factor( 2 ) * factor( I1 ) ) ) )
+Assignment I3 := expression( simple_expression( term( factor( I2 ) ) + term( factor( I1 ) ) ) )
+Assignment I4 := expression( simple_expression( term( factor( I3 ) * nested_expression( expression( simple_expression( term( factor( I2 ) ) - term( factor( I1 ) ) ) ) ) ) ) )
+Assignment I5 := expression( simple_expression( term( factor( I4 ) / factor( I3 ) / factor( I2 ) * factor( I1 ) ) ) )
+Assignment I6 := expression( simple_expression( term( nested_expression( expression( simple_expression( term( factor( I5 ) ) + term( factor( I4 ) ) ) ) ) * nested_expression( expression( simple_expression( term( factor( I3 ) ) - term( factor( I2 ) ) ) ) ) / factor( 10 ) ) ) )
+Assignment I7 := expression( simple_expression( term( factor( - factor( I6 ) ) ) ) )
+Assignment I8 := expression( simple_expression( term( factor( - nested_expression( expression( simple_expression( term( factor( I7 ) ) ) ) ) ) ) ) )
+Write String 'FINISHED WITH INTEGER CALCULATIONS'
+Write String 'EXAMPLES OF FLOW CONTROL'
+Assignment R25 := expression( simple_expression( term( factor( 1.5 ) ) ) )
+While expression( simple_expression( term( factor( R25 ) ) ) < simple_expression( term( factor( 25 ) ) ) )
+%%%%%%%% Loop Body %%%%%%%%
+Begin Compound Statement
+Assignment R25 := expression( simple_expression( term( factor( R25 ) ) + term( factor( 1.25 ) ) ) )
+If expression( simple_expression( term( factor( R25 ) ) ) < simple_expression( term( nested_expression( expression( simple_expression( term( factor( 0.5 ) * factor( 25 ) ) ) ) ) ) ) )
+%%%%%%%% True Statement %%%%%%%%
+Write String 'STILL FAR AWAY'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% False Statement %%%%%%%%
+Begin Compound Statement
+Write String 'GETTING CLOSE'
+End Compound Statement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+End Compound Statement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Write String 'THAT IS ALL'
+End Compound Statement
+
+
+*** Delete the parse tree ***
+Deleting a programNode
+Deleting a blockNode
+Deleting a compoundNode
+Deleting a writeNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a whileNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a compoundNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an ifNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting a writeNode
+Deleting a compoundNode
+Deleting a writeNode
+Deleting a writeNode

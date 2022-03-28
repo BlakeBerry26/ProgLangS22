@@ -1,0 +1,82 @@
+PROGRAM LARGE;
+VAR
+  I1 : INTEGER;
+  I2 : INTEGER;
+  I3 : INTEGER;
+  I4 : INTEGER;
+  I5 : INTEGER;
+  I6 : INTEGER;
+  I7 : INTEGER;
+  I8 : INTEGER;
+  I9 : INTEGER;
+  I10 : INTEGER;
+  I11 : INTEGER;
+  I12 : INTEGER;
+  I13 : INTEGER;
+  I14 : INTEGER;
+  I15 : INTEGER;
+  I16 : INTEGER;
+  I17 : INTEGER;
+  I18 : INTEGER;
+  I19 : INTEGER;
+  I20 : INTEGER;
+  I21 : INTEGER;
+  I22 : INTEGER;
+  I23 : INTEGER;
+  I24 : INTEGER;
+  I25 : INTEGER;
+  R1 : REAL;
+  R2 : REAL;
+  R3 : REAL;
+  R4 : REAL;
+  R5 : REAL;
+  R6 : REAL;
+  R7 : REAL;
+  R8 : REAL;
+  R9 : REAL;
+  R10 : REAL;
+  R11 : REAL;
+  R12 : REAL;
+  R13 : REAL;
+  R14 : REAL;
+  R15 : REAL;
+  R16 : REAL;
+  R17 : REAL;
+
+  R18 : REAL;
+  R19 : REAL;
+  R20 : REAL;
+  R21 : REAL;
+  R22 : REAL;
+  R23 : REAL;
+  R24 : REAL;
+  R25 : REAL;
+
+BEGIN
+  WRITE('STARTING WITH INTEGER CALCULATIONS');
+  I1 := 1;
+  I2 := 2 * I1;
+  I3 := I2 + I1;
+  I4:=I3*(I2-I1);
+  
+  I5 := I4 / I3 / I2 * I1;
+  I6 := (I5 + I4) * (I3-I2) / 10;
+  I7 := -I6;
+  I8 := -(I7);
+  WRITE('FINISHED WITH INTEGER CALCULATIONS');
+  
+  WRITE('EXAMPLES OF FLOW CONTROL');
+  R25 := 1.5;
+  WHILE R25 < 25.0
+    BEGIN
+      R25 := R25 + 1.25;
+      IF R25 < (0.5 * 25.0) THEN
+        WRITE('STILL FAR AWAY')
+      ELSE 
+        BEGIN
+          WRITE('GETTING CLOSE')
+        END
+    END;
+
+  WRITE('THAT IS ALL')
+END

@@ -1,0 +1,522 @@
+INFO: Using the input3.pas file for input
+enter <program>
+    -->found PROGRAM
+    -->found THREEDIM
+    -->found ;
+    enter <block>
+        -->found VAR
+        -->found XAXIS
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found YAXIS
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found ZAXIS
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found X
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found Y
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found Z
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        enter <compound_statement>
+            -->found BEGIN
+            enter <statement>
+                enter <assignment>
+                    -->found X
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found Y
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found Z
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'WHAT IS THE SIZE OF THE CUBE'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <read>
+                    -->found READ
+                    -->found (
+                    -->found XAXIS
+                    -->found )
+                exit <read>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <read>
+                    -->found READ
+                    -->found (
+                    -->found YAXIS
+                    -->found )
+                exit <read>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <read>
+                    -->found READ
+                    -->found (
+                    -->found ZAXIS
+                    -->found )
+                exit <read>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <while statement>
+                    -->found WHILE
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found Z
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                        -->found <
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found ZAXIS
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                    enter <statement>
+                        enter <compound_statement>
+                            -->found BEGIN
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found 'STARTING NEW LEVEL'
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <while statement>
+                                    -->found WHILE
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found X
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                        -->found <
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found XAXIS
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                    enter <statement>
+                                        enter <compound_statement>
+                                            -->found BEGIN
+                                            enter <statement>
+                                                enter <while statement>
+                                                    -->found WHILE
+                                                    enter <expression>
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found Y
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                        -->found <
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found YAXIS
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                    exit <expression>
+                                                    enter <statement>
+                                                        enter <compound_statement>
+                                                            -->found BEGIN
+                                                            enter <statement>
+                                                                enter <write>
+                                                                    -->found WRITE
+                                                                    -->found (
+                                                                    -->found X
+                                                                    -->found )
+                                                                exit <write>
+                                                            exit <statement>
+                                                            -->found ;
+                                                            enter <statement>
+                                                                enter <write>
+                                                                    -->found WRITE
+                                                                    -->found (
+                                                                    -->found Y
+                                                                    -->found )
+                                                                exit <write>
+                                                            exit <statement>
+                                                            -->found ;
+                                                            enter <statement>
+                                                                enter <write>
+                                                                    -->found WRITE
+                                                                    -->found (
+                                                                    -->found Z
+                                                                    -->found )
+                                                                exit <write>
+                                                            exit <statement>
+                                                            -->found ;
+                                                            enter <statement>
+                                                                enter <write>
+                                                                    -->found WRITE
+                                                                    -->found (
+                                                                    -->found ' '
+                                                                    -->found )
+                                                                exit <write>
+                                                            exit <statement>
+                                                            -->found ;
+                                                            enter <statement>
+                                                                enter <assignment>
+                                                                    -->found Y
+                                                                    -->found :=
+                                                                    enter <expression>
+                                                                        enter <simple expression>
+                                                                            enter <term>
+                                                                                enter <factor>
+                                                                                    -->found Y
+                                                                                exit <factor>
+                                                                            exit <term>
+                                                                            -->found +
+                                                                            enter <term>
+                                                                                enter <factor>
+                                                                                    -->found 1
+                                                                                exit <factor>
+                                                                            exit <term>
+                                                                        exit <simple expression>
+                                                                    exit <expression>
+                                                                exit <assignment>
+                                                            exit <statement>
+                                                            -->found END
+                                                        exit <compound_statement>
+                                                    exit <statement>
+                                                exit <while statement>
+                                            exit <statement>
+                                            -->found ;
+                                            enter <statement>
+                                                enter <assignment>
+                                                    -->found Y
+                                                    -->found :=
+                                                    enter <expression>
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found 0
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                    exit <expression>
+                                                exit <assignment>
+                                            exit <statement>
+                                            -->found ;
+                                            enter <statement>
+                                                enter <assignment>
+                                                    -->found X
+                                                    -->found :=
+                                                    enter <expression>
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found X
+                                                                exit <factor>
+                                                            exit <term>
+                                                            -->found +
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found 1
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                    exit <expression>
+                                                exit <assignment>
+                                            exit <statement>
+                                            -->found END
+                                        exit <compound_statement>
+                                    exit <statement>
+                                exit <while statement>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <assignment>
+                                    -->found X
+                                    -->found :=
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found 0
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                exit <assignment>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <assignment>
+                                    -->found Y
+                                    -->found :=
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found 0
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                exit <assignment>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <assignment>
+                                    -->found Z
+                                    -->found :=
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found Z
+                                                exit <factor>
+                                            exit <term>
+                                            -->found +
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found 1
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                exit <assignment>
+                            exit <statement>
+                            -->found END
+                        exit <compound_statement>
+                    exit <statement>
+                exit <while statement>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'COMPLETE'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found END
+        exit <compound_statement>
+    exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+X
+XAXIS
+Y
+YAXIS
+Z
+ZAXIS
+
+
+*** In order traversal of parse tree ***
+Program Name THREEDIM
+Begin Compound Statement
+Assignment X := expression( simple_expression( term( factor( 0 ) ) ) )
+Assignment Y := expression( simple_expression( term( factor( 0 ) ) ) )
+Assignment Z := expression( simple_expression( term( factor( 0 ) ) ) )
+Write String 'WHAT IS THE SIZE OF THE CUBE'
+Read Value XAXIS
+Read Value YAXIS
+Read Value ZAXIS
+While expression( simple_expression( term( factor( Z ) ) ) < simple_expression( term( factor( ZAXIS ) ) ) )
+%%%%%%%% Loop Body %%%%%%%%
+Begin Compound Statement
+Write String 'STARTING NEW LEVEL'
+While expression( simple_expression( term( factor( X ) ) ) < simple_expression( term( factor( XAXIS ) ) ) )
+%%%%%%%% Loop Body %%%%%%%%
+Begin Compound Statement
+While expression( simple_expression( term( factor( Y ) ) ) < simple_expression( term( factor( YAXIS ) ) ) )
+%%%%%%%% Loop Body %%%%%%%%
+Begin Compound Statement
+Write Value X
+Write Value Y
+Write Value Z
+Write String ' '
+Assignment Y := expression( simple_expression( term( factor( Y ) ) + term( factor( 1 ) ) ) )
+End Compound Statement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Assignment Y := expression( simple_expression( term( factor( 0 ) ) ) )
+Assignment X := expression( simple_expression( term( factor( X ) ) + term( factor( 1 ) ) ) )
+End Compound Statement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Assignment X := expression( simple_expression( term( factor( 0 ) ) ) )
+Assignment Y := expression( simple_expression( term( factor( 0 ) ) ) )
+Assignment Z := expression( simple_expression( term( factor( Z ) ) + term( factor( 1 ) ) ) )
+End Compound Statement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Write String 'COMPLETE'
+End Compound Statement
+
+
+*** Delete the parse tree ***
+Deleting a programNode
+Deleting a blockNode
+Deleting a compoundNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a writeNode
+Deleting a readNode
+Deleting a readNode
+Deleting a readNode
+Deleting a whileNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a compoundNode
+Deleting a writeNode
+Deleting a whileNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a compoundNode
+Deleting a whileNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a compoundNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a writeNode

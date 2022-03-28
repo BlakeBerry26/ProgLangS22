@@ -1,0 +1,325 @@
+INFO: Using the input1.pas file for input
+enter <program>
+    -->found PROGRAM
+    -->found INPUT1
+    -->found ;
+    enter <block>
+        -->found VAR
+        -->found COUNT
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found USER
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found N
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        enter <compound_statement>
+            -->found BEGIN
+            enter <statement>
+                enter <assignment>
+                    -->found COUNT
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'ENTER AN INTEGER'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <read>
+                    -->found READ
+                    -->found (
+                    -->found USER
+                    -->found )
+                exit <read>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found N
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found USER
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <while statement>
+                    -->found WHILE
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found (
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found N
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                        -->found <>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found 0
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                    -->found )
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                    enter <statement>
+                        enter <compound_statement>
+                            -->found BEGIN
+                            enter <statement>
+                                enter <assignment>
+                                    -->found N
+                                    -->found :=
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found N
+                                                exit <factor>
+                                                -->found /
+                                                enter <factor>
+                                                    -->found 10
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                exit <assignment>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <assignment>
+                                    -->found COUNT
+                                    -->found :=
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found COUNT
+                                                exit <factor>
+                                            exit <term>
+                                            -->found +
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found 1
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                exit <assignment>
+                            exit <statement>
+                            -->found END
+                        exit <compound_statement>
+                    exit <statement>
+                exit <while statement>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found USER
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'CONTAINS'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found COUNT
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'DIGITS'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found ' '
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <if statement>
+                    -->found IF
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found COUNT
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                        -->found >
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 8
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                    -->found THEN
+                    enter <statement>
+                        enter <write>
+                            -->found WRITE
+                            -->found (
+                            -->found 'THAT IS A BIG NUMBER'
+                            -->found )
+                        exit <write>
+                    exit <statement>
+                exit <if statement>
+            exit <statement>
+            -->found END
+        exit <compound_statement>
+    exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+COUNT
+N
+USER
+
+
+*** In order traversal of parse tree ***
+Program Name INPUT1
+Begin Compound Statement
+Assignment COUNT := expression( simple_expression( term( factor( 0 ) ) ) )
+Write String 'ENTER AN INTEGER'
+Read Value USER
+Assignment N := expression( simple_expression( term( factor( USER ) ) ) )
+While expression( simple_expression( term( nested_expression( expression( simple_expression( term( factor( N ) ) ) <> simple_expression( term( factor( 0 ) ) ) ) ) ) ) )
+%%%%%%%% Loop Body %%%%%%%%
+Begin Compound Statement
+Assignment N := expression( simple_expression( term( factor( N ) / factor( 10 ) ) ) )
+Assignment COUNT := expression( simple_expression( term( factor( COUNT ) ) + term( factor( 1 ) ) ) )
+End Compound Statement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Write Value USER
+Write String 'CONTAINS'
+Write Value COUNT
+Write String 'DIGITS'
+Write String ' '
+If expression( simple_expression( term( factor( COUNT ) ) ) > simple_expression( term( factor( 8 ) ) ) )
+%%%%%%%% True Statement %%%%%%%%
+Write String 'THAT IS A BIG NUMBER'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+End Compound Statement
+
+
+*** Delete the parse tree ***
+Deleting a programNode
+Deleting a blockNode
+Deleting a compoundNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a writeNode
+Deleting a readNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a whileNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a compoundNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting an ifNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a writeNode
