@@ -1,6 +1,6 @@
 ###############################################################################
-# purpose: makefile for Project Part 2
-# author:  Joe Crumpton / Ed Swan
+# purpose: makefile for interpreter example (Arithmetic Expressions)
+# author:  Joe Crumpton
 #
 # 'make'        build executable file
 # 'make clean'  removes all intermediate (lex.yy.c and *.o) and executable files
@@ -19,19 +19,20 @@ CXX      = g++
 CC       = gcc
 RM       = rm
 # generate debug information for gdb
-CXXFLAGS = -g
+# silence the c++11-extensions error warnings
+CXXFLAGS = -g -Wno-c++11-extensions
 CCFLAGS  = -g
 
 
-tips_parse: lex.yy.o driver.o
-	$(CXX) $(CXXFLAGS) -o tips_parse lex.yy.o driver.o
+interpret.exe: lex.yy.o driver.o
+	$(CXX) $(CXXFLAGS) -o interpret.exe lex.yy.o driver.o
 
 #     -o flag specifies the output file
 #
 #     The above rule could be written with macros as
 #        $(CXX) $(CXXFLAGS) -o $@ $^
 
-driver.o: driver.cpp productions.h parse_tree_nodes.h lexer.h
+driver.o: driver.cpp parser.h parse_tree_nodes.h lexer.h
 	$(CXX) $(CXXFLAGS) -o driver.o -c driver.cpp
 
 #      -c flag specifies stop after compiling, do not link
@@ -39,9 +40,9 @@ driver.o: driver.cpp productions.h parse_tree_nodes.h lexer.h
 lex.yy.o: lex.yy.c lexer.h
 	$(CC) $(CCFLAGS) -o lex.yy.o -c lex.yy.c
 
-lex.yy.c: rules.l lexer.h
-	$(LEX) -o lex.yy.c rules.l
+lex.yy.c: exp-rules.l lexer.h
+	$(LEX) -o lex.yy.c exp-rules.l
 
 clean: 
-	$(RM) *.o lex.yy.c tips_parse
+	$(RM) *.o lex.yy.c interpret.exe
 

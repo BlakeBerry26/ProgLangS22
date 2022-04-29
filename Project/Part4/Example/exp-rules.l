@@ -1,5 +1,5 @@
 /******************************************************************* 
-purpose: CSE 4713 / 6713 example rules file for flex,
+purpose: CSE 4714 / 6714 example rules file for flex,
          recognizes lexemes for mathematical expressions 
 version: Spring 2022
 author: Joe Crumpton / Ed Swan
@@ -18,15 +18,15 @@ author: Joe Crumpton / Ed Swan
 
  /* Operators */
 
-"+"        { return TOK_ADD_OP; }
-"-"        { return TOK_SUB_OP; }
-"*"        { return TOK_MULT_OP; }
-"/"        { return TOK_DIV_OP; }
+\+        { return TOK_ADD_OP; }
+-         { return TOK_SUB_OP; }
+\*        { return TOK_MULT_OP; }
+\/        { return TOK_DIV_OP; }
 
  /* Punctuation */
 
-"("        { return TOK_LEFT_PAREN; }
-")"        { return TOK_RIGHT_PAREN; }
+\(        { return TOK_LEFT_PAREN; }
+\)        { return TOK_RIGHT_PAREN; }
 
  /* Eat any whitespace */
 

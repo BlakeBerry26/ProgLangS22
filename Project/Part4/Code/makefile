@@ -24,7 +24,7 @@ CCFLAGS  = -g
 
 
 tips_parse: lex.yy.o driver.o
-	$(CXX) $(CXXFLAGS) -o tips_parse lex.yy.o driver.o
+	$(CXX) $(CXXFLAGS) -o tips lex.yy.o driver.o
 
 #     -o flag specifies the output file
 #
@@ -43,5 +43,5 @@ lex.yy.c: rules.l lexer.h
 	$(LEX) -o lex.yy.c rules.l
 
 clean: 
-	$(RM) *.o lex.yy.c tips_parse
+	$(RM) *.o lex.yy.c tips
 

@@ -1,6 +1,5 @@
 //*****************************************************************************
-// purpose: driver file for parser example - flex generated lexer
-//          builds parse tree while parsing the input
+// purpose: driver file for interpreter example
 // version: Spring 2022
 // author: Joe Crumpton / Ed Swan
 //*****************************************************************************
@@ -23,18 +22,18 @@ extern "C"
   extern int yyleng;   // length of current lexeme
   extern char *yytext; // text of current lexeme
   extern int yylex();  // the generated lexical analyzer
+  extern int yylex_destroy(); // deletes memory allocated by yylex
 }
 
 int main( int argc, char* argv[] )
 {
-   /* Open the input data file and process its contents */
+  // Open the input data file and process its contents 
   if ((yyin = fopen("front.in", "r")) == NULL) {
     cout << "ERROR - cannot open front.in" << endl;
     return(EXIT_FAILURE);
   }
-  // Uncomment this line to interactively type your own expression.
-  // If so, to end must type "Ctrl-D" (generate EOF character)
-  // yyin = stdin;
+  // This line allows typing in an expression interactively
+  yyin = stdin;
 
   // Create the root of the parse tree
   ExprNode* root = nullptr;
@@ -46,13 +45,18 @@ int main( int argc, char* argv[] )
 
   if (yyin)
     fclose(yyin);
+  
+  yylex_destroy();
 
   cout << endl << "*** In order traversal of parse tree ***" << endl;
   cout << *root << endl << endl;
 
-  // cout << "*** Delete the parse tree ***" << endl;
-  // delete root;
-  // root = nullptr;
+  cout << "*** Interpreting the Arithmetic Expression ***" << endl;
+  cout << root->interpret() << endl << endl;
 
+  cout << "*** Delete the parse tree ***" << endl;
+  delete root;
+  root = nullptr;
+  
   return(EXIT_SUCCESS);
 }

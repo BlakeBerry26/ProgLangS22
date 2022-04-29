@@ -448,7 +448,7 @@ int yy_flex_debug = 0;
 char *yytext;
 #line 1 "exp-rules.l"
 /******************************************************************* 
-purpose: CSE 4713 / 6713 example rules file for flex,
+purpose: CSE 4714 / 6714 example rules file for flex,
          recognizes lexemes for mathematical expressions 
 version: Spring 2022
 author: Joe Crumpton / Ed Swan

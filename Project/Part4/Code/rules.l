@@ -1,6 +1,6 @@
 /*********************************************************************
 Name: Andrew Blake Berry NetID: abb576
-Course: CSE 4714 Assignment: Part 3
+Course: CSE 4714 Assignment: Part 4
 Programming Environment: VS Code
 Purpose of File: Contains the rules for lex
 *********************************************************************/

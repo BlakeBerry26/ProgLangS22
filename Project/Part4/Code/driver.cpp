@@ -1,6 +1,6 @@
 /*********************************************************************
 Name: Andrew Blake Berry NetID: abb576
-Course: CSE 4714 Assignment: Part 3
+Course: CSE 4714 Assignment: Part 4
 Programming Environment: VS Code
 Purpose of File: driver for Project Part 3 (parser for TIPS)
 *********************************************************************/
@@ -12,6 +12,7 @@ Purpose of File: driver for Project Part 3 (parser for TIPS)
 #include <iostream>
 #include <string>
 #include <set>
+#include <map>
 
 using namespace std;
 
@@ -36,7 +37,7 @@ extern int nextToken; // token returned from yylex
 // Feel free to use a different data structure for the symbol table (list of
 // variables declared in the program) but you will have to adjust the code in
 // main() to print out the symbol table after a successful parse
-set<string> symbolTable; // Symbol Table
+map<string, int>  symbolTable; // Symbol Table
 
 
 //*****************************************************************************
@@ -51,7 +52,7 @@ int main(int argc, char* argv[]) {
     }
     else {
         printf("INFO: Using the sample.pas file for input\n");
-        yyin = fopen("sample.pas", "r");
+        yyin = fopen("example1.pas", "r");
     }
   
     if (!yyin) {
@@ -86,21 +87,26 @@ int main(int argc, char* argv[]) {
 
     // Print out the symbol table
     cout << endl << "User Defined Symbols:" << endl;
-    set<string>::iterator it;
+    map<string, int>::iterator it;
     for (it = symbolTable.begin(); it != symbolTable.end(); ++it) {
-        cout << *it << endl;
+        cout << it->first << endl;
     }
 
-    cout << endl << endl << "*** In order traversal of parse tree ***" << endl;
+    cout << endl << "*** In order traversal of parse tree ***" << endl;
     cout << *p;
 
-    // cout << endl << endl << "*** Delete the parse tree ***" << endl;
-    // delete p;
-    // p = nullptr;
+    cout << endl << endl << "*** Interpreting the TIPS program ***" << endl;
+    p->interpret();
+
+    cout << endl << "*** Delete the parse tree ***" << endl;
+    delete p;
+    p = nullptr;
 
     cout << endl;
-    delete yyin;
-    delete yyout;
+
+    fclose(yyin);
+
+    delete yytext;
 
     return EXIT_SUCCESS;
 }

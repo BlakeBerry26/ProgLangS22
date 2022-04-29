@@ -199,3 +199,59 @@ PI
 RAREA
 SAREA
 WIDTH
+
+
+*** In order traversal of parse tree ***
+Program Name AREA
+Begin Compound Statement
+Assignment PI := expression( simple_expression( term( factor( 3.14159 ) ) ) )
+Read Value HEIGHT
+Read Value WIDTH
+Assignment RAREA := expression( simple_expression( term( factor( HEIGHT ) * factor( WIDTH ) ) ) )
+Assignment SAREA := expression( simple_expression( term( factor( PI ) * factor( WIDTH ) * factor( WIDTH ) / factor( 8 ) ) ) )
+Assignment AREA := expression( simple_expression( term( factor( RAREA ) ) - term( factor( SAREA ) ) ) )
+Write String ' INPUT VALUES: '
+Write Value HEIGHT
+Write Value WIDTH
+Write String ' AREA = '
+Write Value AREA
+End Compound Statement
+
+
+*** Delete the parse tree ***
+Deleting a programNode
+Deleting a blockNode
+Deleting a compoundNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a readNode
+Deleting a readNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting a factorNode
+Deleting an assignmentNode
+Deleting an expressionNode
+Deleting a simpleExpressionNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a termNode
+Deleting a factorNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting a writeNode
+Deleting a writeNode

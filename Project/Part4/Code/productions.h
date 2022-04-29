@@ -1,6 +1,6 @@
 /*********************************************************************
 Name: Andrew Blake Berry NetID: abb576
-Course: CSE 4714 Assignment: Part 3
+Course: CSE 4714 Assignment: Part 4
 Programming Environment: VS Code
 Purpose of File: Contains the parsing code
 *********************************************************************/
@@ -11,7 +11,7 @@ Purpose of File: Contains the parsing code
 #include "parse_tree_nodes.h"
 #include <iostream>
 
-extern set<string> symbolTable;
+extern map<string, int> symbolTable;
 int nextToken = 0;  // token returned from yylex
 int level = 0;  // used to indent output to approximate parse tree
 
@@ -114,7 +114,7 @@ bool is_block(BlockNode *&block) {
         if (nextToken == TOK_IDENT) {
             do {
                 if (symbolTable.find(yytext) == symbolTable.end())
-                    symbolTable.insert(yytext);
+                    symbolTable.insert({yytext, 0});
                 else
                     throw "101: identifier declared twice";
                 output();
@@ -418,7 +418,6 @@ bool is_statement(StatementNode *&statement) {
 
 bool is_factor(FactorNode *&factor) {
     enter("factor");
-    delete factor;
     if (!first_of_factor())
         throw "903: illegal type of factor";
 
